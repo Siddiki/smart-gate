@@ -1,0 +1,11 @@
+Power   Sensor_L   Sensor_H   Alert   Message
+
+  0        X           X        0        0
+  
+  1        0           0        0        0
+  
+  1        0           1        1        0
+  
+  1        1           0        1        1
+  
+  1        1           1        0        0
