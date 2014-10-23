@@ -1,0 +1,18 @@
+int SensorLow = 11;
+int SensorHigh = 12;
+int Alert = 12;
+
+void setup()
+{
+  pinMode(SensorLow, INPUT);
+  pinMode(SensorHigh, INPUT);
+  pinMode(Alert, OUTPUT);
+}
+
+void loop()
+{
+  int BabyDetection = digitalRead(SensorLow);
+  int AdultDetection = digitalRead(SensorHigh);
+  
+  if(BabyDetection == HIGH && AdultDetection == LOW) digitalWrite(Alert, HIGH);
+}
