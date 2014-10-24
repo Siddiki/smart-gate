@@ -1,0 +1,26 @@
+function sneding_alert() {
+  var  sheet = SpreadsheetApp.getActiveSheet();
+  var response = UrlFetchApp.fetch("https://api.spark.io/v1/devices/53ff6b066667574818371267/alert?access_token=f571fc5a36f137d19f6d746c4c144ac938af7de1");
+  var response = JSON.parse(response.getContentText());
+  var alert = unescape(response.result);
+  
+  while(1){
+  
+  
+  
+  
+  if(alert == 1){
+    
+    var response = UrlFetchApp.fetch("https://api.spark.io/v1/devices/53ff6b066667574818371267/alert?access_token=f571fc5a36f137d19f6d746c4c144ac938af7de1");
+    var response = JSON.parse(response.getContentText());
+    var alert = unescape(response.result);
+  
+    
+    var d = new Date();
+    sheet.appendRow([d, alert]);
+  
+  
+  }
+  
+  }
+}
