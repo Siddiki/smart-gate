@@ -1,3 +1,9 @@
+/*This code is supposed to read data from two sensors,
+if the higher sensor is low and lower sensor is high, 
+then it means a baby is crossing the door, then the alert
+is assign "1", which will be sent the cloud.*/
+
+
 //int D0=s_0; //powersupply for lower sensor
 //int D1=s_1; //powersupply for higher sensor
 
