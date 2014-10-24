@@ -30,4 +30,4 @@ However, writting an iOS or Android app is beyond the scope of this class; there
 
 6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assign "1", which will be sent the cloud.And user can get this from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
 
-7. Component List - The list includes the components that we need for our first functional prototype. For each component, the estimated price, functionality, and status are listed.
+7. Component List - The list includes the components that we need for our first functional prototype. For each component, the estimated price, functionality, quantity and status are listed.
