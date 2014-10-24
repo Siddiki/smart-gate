@@ -28,5 +28,5 @@ However, writting an APP is way beyond the scope of this class; therefore they d
 
 5. Arduino Test - Arduino sketch written to test our code for Spark Core
 
-6. Spark Core Code - [JIALUN PLEASE EXPLAIN HERE]
+6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assign "1", which will be sent the cloud.And user can get this from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
 
