@@ -23,10 +23,10 @@ GITHUB CONTENTS
 
 3. Truth Table - Truth Table and Logic expressions for Alert and Message
 
-4. App Script Code - First at all, we will creat a google form, in which user can summit command: "on" for turn on the system, "off" for turn off the system. Since our project doesn't have too much data to send back and forth between spark core and the Internet, we try to make it simple as it only takes command to either turn on or turn off the system. It can be inplemented by connecting the power supply of sensor to the one of output pins of spark core.
-However, writting an APP is way beyond the scope of this class; therefore they decide, perhaps we can use the google apps script as an alternative way. We may write some code in google apps script so that it'll receive data from spark core, once the condition is matched then it will send an email to user-- as user will get an "alert",assuming user has gmail on his phone. We think it is doable, because the apps script has feature of sending email to user.
+4. App Script Code - First of all, we will create a google form, in which the user can submit command: "on" to turn on the system, or "off" for turn off the system. Since our project doesn't have too much data to send back and forth between spark core and the Internet, we tried to make it simple as it only takes commands to either turn on or turn off the system. It can be implemented by connecting the power supply of the sensor to the one of output pins of the spark core.
+However, writting an iOS or Android app is beyond the scope of this class; therefore we will use the google apps script as an alternative solution. We may write some code in google apps script so that it will receive data from spark core, once the condition is matched it will send an email to the user-- as user will get an "alert", assuming user has an email client on his phone. We think it is doable, because the apps script has feature of sending email to user.
 
-5. Arduino Test - Arduino sketch written to test our code for Spark Core
+5. Arduino Test - Arduino sketch written to test our code for Spark Core. The code sets up two pins as inputs (Sensor 1 and Sensor 2) and one as an output (connected to LED). This was just a very basic prototype that we made to test the circuit.
 
 6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assign "1", which will be sent the cloud.And user can get this from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
 
