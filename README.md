@@ -17,7 +17,7 @@ We aim to make our product affordable enough that all parents will be able to bu
 
 GITHUB CONTENTS
 
-1. Midterm Presentation PPT - linke to Mid term presentation presented at The Cooper Union on 10/23/14 
+1. Midterm Presentation PPT - link to Mid term presentation presented at The Cooper Union on 10/23/14 
 
 2. Midterm Presentation Skit - Script for presentation presented at The Cooper Union on 10/23/14
 
