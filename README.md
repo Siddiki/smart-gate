@@ -28,5 +28,6 @@ However, writting an iOS or Android app is beyond the scope of this class; there
 
 5. Arduino Test - Arduino sketch written to test our code for Spark Core. The code sets up two pins as inputs (Sensor 1 and Sensor 2) and one as an output (connected to LED). This was just a very basic prototype that we made to test the circuit.
 
-6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assigned "1", which will be sent to the cloud. And user can get this information from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
+6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assign "1", which will be sent the cloud.And user can get this from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
 
+7. Component List - The list includes the components that we need for our first functional prototype. For each component, the estimated price, functionality, and status are listed.
