@@ -1,0 +1,14 @@
+
+Sparkcore
+-Functionality: Sparkcore will be used as the central processing unit of our project. It gains data from the sensors, processes them, and then send commands to client devices via internet.
+-Price: ~$40.00 each
+-Quantity: 2
+-Status: #1: burnt; Attempt to fix it is in process.
+         #2: not yet ordered; The necessity of this component is in discussion.
+         
+Infrared Proximity Sensor
+-Functionality: Combination of IR sensors will be used to decect whether the baby is going through the designated gate.
+-Price: ~$15.00 each
+-Quantity: initially 2; more may be acquired
+-Status: ordered throught Prof. Petrillo
+
