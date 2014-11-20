@@ -1,0 +1,41 @@
+int led = 11;
+int button = 12;
+int buzzer = 10;
+
+int buttonState = LOW;
+
+void setup(){
+  
+  Serial.begin(9600);
+  pinMode(led, OUTPUT);
+  pinMode(button, INPUT);
+  pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+  int sensorTall = analogRead(A1);
+  Serial.print(sensorTall);
+  Serial.print("\t");
+  if(sensorTall > 250){
+    delay(1000);
+  }
+    
+  int sensorShort = analogRead(A0);
+  Serial.println(sensorShort);
+  if(sensorShort > 250){
+    while(buttonState == LOW){
+      digitalWrite(buzzer, HIGH);
+      digitalWrite(led, HIGH);
+      delay(250);
+      digitalWrite(led, LOW);
+      delay(250);
+      buttonState = digitalRead(button);
+    }
+    digitalWrite(buzzer, LOW);
+    buttonState = LOW;
+  }
+  
+  
+  delay(100);
+}
+  
