@@ -1,0 +1,42 @@
+int sys_on = 0;
+int alert = 0;
+int dist_0 = 0; //lower position
+int dist_1 = 0; //higher position
+
+
+void setup() {
+    
+    pinMode(A0,INPUT);    //lower sensor
+    pinMode(A1,INPUT);    //higher sensor
+    
+    
+    Spark.variable("alert",&alert,INT);
+    Spark.variable("on",&sys_on,INT);
+    Spark.function("power",active);
+    
+}
+
+void loop() {
+
+
+    dist_0 = analogRead(A0);
+    dist_1 = analogRead(A1);
+    //actual value needed be tested
+    if( dist_0 > 250 && dist_1 < 250){
+        alert = 1;
+    }
+    else{
+        alert = 0;
+    }
+}
+
+int active(String command){
+    if(command == "on"){
+        sys_on = 1;
+    }
+    
+    if(command == "off"){
+        sys_on = 0; 
+    }
+    return 0;
+}
