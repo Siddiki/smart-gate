@@ -38,5 +38,5 @@ Final Presentation Contents
 
 2. Babyguard survey - link to the survey we sent out through our emailing list, as well as to other friends and family members. We wanted to gather data on the public opinion of our product. We asked if these people would like to see any additional functions on the product, to be able to better judge whether or not customers believe the product to be viable at the moment, or would there need to be something more. We asked them to estimate cost to be able to judge a price-range for the market.
 
-3. 
+3. AutoCAD file for box - contains a link to the CAD file that we used to laser cut the acrylic box for the babyguard housing.
 
