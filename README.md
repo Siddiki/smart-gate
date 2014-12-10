@@ -31,8 +31,9 @@ However, writting an iOS or Android app is beyond the scope of this class; there
 6. Spark Core Code - The code is supposed to read data from two sensors, if the higher sensor is low and lower sensor is high, then it means a baby is crossing the door, then the alert is assign "1", which will be sent the cloud.And user can get this from cloud. Furthermore, the app script code will read the data--"alert" from the cloud, and then send an "email alert" to user.
 
 7. Component List - The list includes the components that we need for our first functional prototype. For each component, the estimated price, functionality, quantity and status are listed.
-========
+
 Final Presentation Contents
+========
 1. Babyguard website - folder includes all of the documents used for the Babyguard.brace.io website. It includes all the .html, and .css files, along with any images we needed for the site. This website allowed us to communicate with potential customers online by acquiring their email through a fake beta, and then sending out mass emails. The website also includes a link to the survey.
 
 2. Babyguard survey - link to the survey we sent out through our emailing list, as well as to other friends and family members. We wanted to gather data on the public opinion of our product. We asked if these people would like to see any additional functions on the product, to be able to better judge whether or not customers believe the product to be viable at the moment, or would there need to be something more. We asked them to estimate cost to be able to judge a price-range for the market.
