@@ -32,11 +32,18 @@ However, writting an iOS or Android app is beyond the scope of this class; there
 
 7. Component List - The list includes the components that we need for our first functional prototype. For each component, the estimated price, functionality, quantity and status are listed.
 
+8. Arduino Test Code - The fully functional code on Arduino Micro.
+
 Final Presentation Contents
 ========
 1. Babyguard website - folder includes all of the documents used for the Babyguard.brace.io website. It includes all the .html, and .css files, along with any images we needed for the site. This website allowed us to communicate with potential customers online by acquiring their email through a fake beta, and then sending out mass emails. The website also includes a link to the survey.
 
 2. Babyguard survey - link to the survey we sent out through our emailing list, as well as to other friends and family members. We wanted to gather data on the public opinion of our product. We asked if these people would like to see any additional functions on the product, to be able to better judge whether or not customers believe the product to be viable at the moment, or would there need to be something more. We asked them to estimate cost to be able to judge a price-range for the market.
 
-3. AutoCAD file for box - contains a link to the CAD file that we used to laser cut the acrylic box for the babyguard housing.
+3. Flyer Template - the link to one of the flyers that we put out on targetting location. All the flyers share the same template with only little modification.  
+
+4. AutoCAD file for box - contains a link to the CAD file that we used to laser cut the acrylic box for the babyguard housing.
+
+5. Final Presentation Slides - the link to the slides that was used in the final presentation on Dec. 16th 2014 
+
 
