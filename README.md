@@ -1,4 +1,4 @@
-https://cloud.githubusercontent.com/assets/8973982/5464240/ada211ee-8553-11e4-9445-3ec8bf3f10ce.JPG
+![alt tag](https://cloud.githubusercontent.com/assets/8973982/5464240/ada211ee-8553-11e4-9445-3ec8bf3f10ce.JPG)
 
 smart-gate
 ==========
