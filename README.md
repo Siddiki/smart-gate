@@ -1,6 +1,6 @@
 ![alt tag](https://cloud.githubusercontent.com/assets/8973982/5464240/ada211ee-8553-11e4-9445-3ec8bf3f10ce.JPG)
 From left to right: Jialun Bao, jollybao; Jerry Qiu, jerryqiuzr; Yingfu Ma, yma3; Abdullah Siddiki, Siddiki
-smart-gate
+Smart Baby Guard
 ==========
 
 Introuducing the Smart Baby Guard! The device that watches your child for you while you can't.
