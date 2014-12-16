@@ -1,5 +1,5 @@
 ![alt tag](https://cloud.githubusercontent.com/assets/8973982/5464240/ada211ee-8553-11e4-9445-3ec8bf3f10ce.JPG)
-
+Jialun Bao, jollybao; Jerry Qiu, zirui q; Yingfu Ma, yma3; Adbullah Siddiki, Siddiki
 smart-gate
 ==========
 
