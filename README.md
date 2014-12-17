@@ -1,5 +1,9 @@
 ![alt tag](https://cloud.githubusercontent.com/assets/8973982/5464240/ada211ee-8553-11e4-9445-3ec8bf3f10ce.JPG)
 From left to right: Jialun Bao, jollybao; Jerry Qiu, jerryqiuzr; Yingfu Ma, yma3; Abdullah Siddiki, Siddiki
+
+Kickstarter Preview:
+https://www.kickstarter.com/projects/1636759556/760679857?token=4569ba3b
+
 Smart Baby Guard
 ==========
 
