@@ -3,6 +3,7 @@ int alert = 0;
 int dist_0 = 0; //lower position
 int dist_1 = 0; //higher position
 
+int gittest;
 
 void setup() {
     
